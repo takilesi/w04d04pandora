@@ -1,0 +1,266 @@
+body{
+    margin: 0
+}
+.scrollBar{
+    height: 25px;
+    background-color: pink;
+    margin-top: -5px;
+    padding: 8px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid pink;
+    padding-bottom: 5px;
+}
+.logo {
+    height: 50px;
+    margin: 10px 20px
+}
+/* right side */
+.rightSide{
+    display: flex;
+    align-items: center;
+    margin-right: 20px
+}
+.searchIcon{
+    height: 20px;
+    margin-left: -30px;
+    margin-bottom: -5px
+}
+.rightSide input{
+    height: 40px;
+    width: 200px
+}
+.rightSide input::placeholder{
+    padding-left: 20px;
+}
+.rightSide img {
+    height: 20px;
+}
+.miniIcons{
+    margin-left: 30px
+}
+.miniIcons img{
+    margin: 4px
+}
+.miniIcons img:hover{
+    cursor: pointer;
+    border-bottom: 4px solid pink
+}
+/* NAV BAR */
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 4px
+}
+.option{
+    display: flex;
+}
+.navBar p {
+    margin-right: 10px;
+    font-size: .8em;
+}
+.downArrow{
+    margin-left: -5px ;
+    /* border: 2px solid red */
+    margin-top: 5px;
+    color: gray;
+}
+.option:hover{
+    cursor: pointer;
+}
+
+/* top image */
+#shrinkMe{
+    width: 100%; 
+}
+
+
+/* top image comment */
+.topImageComment{
+    border: solid pink; 
+    border-width: 5px;
+    height: 100px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#shrinkMarg{
+    margin-top: -3px;
+}
+
+
+/* 6 pics box */
+.sixPicsShell{
+    /* border: solid black;  */
+    display: flex; 
+    height: 35.5em; 
+    flex-direction: row;
+}
+.sixOuter{
+    /* border: solid black;  */
+    width: 8%; 
+    /* height: 300px;  */
+}
+.sixText{
+    /* border: solid black;  */
+    width: 27%; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+#topTexty{
+    margin-bottom: 30px;
+    font-size: 14px;;
+}
+#texty{
+    margin-top: -18px;
+}
+.sixPicColumns{
+    /* border: solid black;  */
+    width: 19%; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topnbottomSpace{
+    /* border: solid gray;  */
+    width: 92%; 
+    height: 17%; 
+}
+.pictureSpace{
+    border: solid gray; 
+    border-width: 1px; 
+    width: 92%; 
+    height: 33%; 
+    display: flex; 
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px; 
+    
+}
+#theText{
+    padding-top: 12px;
+}
+
+
+
+
+
+
+/* email sign up box and links  - next to bottom of page */
+.emailAndLinks{
+    display: flex; 
+    justify-content: center;
+    background-image: linear-gradient(rgb(255, 254, 254), rgb(184, 184, 179));
+    padding-bottom: 120px;
+}
+.innerBox{
+    width: 90%;  
+}
+.innerBoxTop{
+    display: flex; 
+    padding-bottom: 1em; 
+}
+.innerBoxBottom{
+    border-top: 1px solid gray;
+    padding-top: 1em;
+}
+.lBoxAndrBox{
+    width: 20%; 
+}
+.centerlBoxAndrBox{
+    width: 30%; 
+    font-size: 12px;
+    margin-top: -6px;   
+}
+#topMargin{
+    margin-top: -10px;  
+    margin-right: 1em;
+}
+.insideEMandSignup{
+    border: solid gray; 
+    height: 45%; 
+    display: flex; 
+    align-items: center;
+}
+#widthOne{
+    width: 70%; 
+    padding-left: 1em;
+}
+#widthTwo{
+    width: 30%;
+    justify-content: center;
+    background-color: gray; 
+    color: white; 
+}
+#flexer{
+    display: flex; 
+    align-items: center; 
+}
+
+
+/* links */
+.innerBoxBottom{
+    /* border: solid black;  */
+    display: flex; 
+    justify-content: space-between;
+}
+.linkBoxes{
+    font-size: 10px;
+    color:rgb(76, 68, 68); 
+    margin-top: -8px;
+}
+
+
+
+
+
+/* privacy notice box    - bottom of page */
+
+.privacy{
+    color: rgb(76, 68, 68); 
+    padding-left: 10px;
+}
+.privacyNoticeBox{
+    border: solid black; 
+    border-width: 1px;
+    display: flex;  
+    font-size: 12px;
+    color: rgb(99, 86, 86); 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    background-color: white; 
+}
+.rBoxes{
+    border: solid black; 
+    padding: 5px; 
+}
+.lBox{
+    width: 55%; 
+}
+.rBox{
+    width: 45%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#reverse{
+    background-color:black;
+    color: white; 
+}
